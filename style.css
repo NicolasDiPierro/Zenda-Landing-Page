@@ -1,0 +1,113 @@
+/* Write some CSS below */
+
+body{
+font-family: 'Castoro', serif;
+margin: 0;
+}
+
+.Banner{
+	background-image: url("images/zenda.jpg");
+	background-size:contain;
+	padding: 100px ;
+	text-align: center;
+
+
+}
+
+h1{
+	color:#313a47;
+	font-size: 58px;
+	margin:0;
+	font-weight: 900;
+	font-family: initial;
+}
+
+p{
+	color:#313a47;
+	font-size: 30px;
+	opacity:0.90;
+	font-weight: 300;
+	font-family: serif;
+
+
+}
+
+a{
+
+	/*background-color: #f3dbc3;*/
+	color:#313a47;
+	padding: 16px 48px;
+	border-radius: 10px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	border: 6px solid #b4a494
+
+
+}
+.sector-productos{
+	color:#313a47;
+	width: 1080px;
+	margin: 60px auto;
+
+}
+
+.presentacion-prendas{
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.prenda{
+	color:#313a47;
+	background:#f3dbc3;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 7px;
+	padding: 24px;
+	margin: 0px 20px;
+}
+
+.prenda img{
+	width: 250px;
+	height: 250px;
+}
+
+footer{
+	background:#f3dbc3;
+	padding: 1px;
+	
+}
+footer p{
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	color:#313a47;
+	
+
+}
+
+
+.sociales{
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+
+
+
+}
+.sociales li{
+	display: inline-block;
+		
+
+
+}
+.sociales a{
+	padding: 25px;
+		border: none;
+
+}
